@@ -37,3 +37,20 @@
     transform: translateY(0px);
   }
 }
+/* Footer */
+.top-footer {
+  background-color: #faf0ca;
+}
+.sub-footer {
+  background-color: #ffbd59;
+}
+
+.map-image {
+  height: 10rem;
+  width: 15rem;
+}
+
+h5 {
+  font-family: "Pacifico", cursive;
+  font-weight: bold;
+}
