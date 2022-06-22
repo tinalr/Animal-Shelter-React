@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Quicksand:wght@300;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap');
+
 body {
   font-family: "Quicksand", sans-serif; }
 
@@ -21,7 +24,8 @@ header .row {
   --bs-gutter-x: 0rem; }
 
 .navbar {
-  background-color: #ffbd59; }
+  background-color: #ffbd59;
+  font-family: "Pacifico", cursive; }
 
 .active {
   font-weight: bold; }
