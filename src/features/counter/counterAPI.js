@@ -5,9 +5,5 @@ export function fetchCount(amount = 1) {
       setTimeout(() => resolve({ data: amount }), 500)
     );
   }
-  
-=======
-        setTimeout(() => resolve({ data: amount }), 500)
-    );
-}
+
 
