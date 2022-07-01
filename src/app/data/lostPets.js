@@ -41,7 +41,7 @@ export const LOSTPETS = [
         sex: "Male",
         breed: "Shih Tzu ",
         location: "Pueblo",
-        weight: 11,
+        weight: 6,
         species: "dog",
         image: dog_3_hooch
     },
@@ -61,7 +61,7 @@ export const LOSTPETS = [
         sex: "Female",
         breed: "Corgi",
         location: "Woodmen",
-        weight: 32,
+        weight: 9,
         species: "dog",
         image: dog_5_hachi
     },
@@ -71,7 +71,7 @@ export const LOSTPETS = [
         sex: "Female",
         breed: "Shnauzer",
         location: "UCCS",
-        weight: 26,
+        weight: 19,
         species: "dog",
         image: dog_6_lassie
     },
@@ -91,7 +91,7 @@ export const LOSTPETS = [
         sex: "Female",
         breed: "Wirehair",
         location: "Briargate",
-        weight: 13,
+        weight: 21,
         species: "cat",
         image: cat_1_buttercup
     },
@@ -121,7 +121,7 @@ export const LOSTPETS = [
         sex: "Male",
         breed: "Birman",
         location: "AFA",
-        weight: 61,
+        weight: 16,
         species: "cat",
         image: cat_4_keanu
     },
