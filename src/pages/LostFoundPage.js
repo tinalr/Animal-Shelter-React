@@ -1,5 +1,12 @@
+import { Container } from "reactstrap";
+import LostPetList from "../features/lostpets/LostPetList";
+
 const LostFoundPage = () => {
-    return <div>LostFoundPage</div>;
+    return (
+        <Container>
+            <LostPetList />
+        </Container>
+    );
 };
 
 export default LostFoundPage;
