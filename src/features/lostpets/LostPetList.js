@@ -5,26 +5,26 @@ import { selectAllLostPets, selectLostDogs, selectLostCats, selectLostOthers } f
 
 const LostPetList = () => {
 
-    const [filter, setFilter] = useState('all')
+    const [filter, setFilter] = useState(selectAllLostPets)
+    console.log(filter);
 
-    const handleFilter = (value) => {
-        setFilter(value);
+    // const setFilter = (value) => {
         
-        if (value === 'dog') { selectLostDogs() }
-        else if (value === 'cat') { selectLostCats() }
-        else if (value === 'other') { selectLostOthers() }
-        else if (value === 'all') { selectAllLostPets() }
+    //     if (value === 'dog') { selectLostDogs() }
+    //     else if (value === 'cat') { selectLostCats() }
+    //     else if (value === 'other') { selectLostOthers() }
+    //     else if (value === 'all') { selectAllLostPets() }
         
-    };
+    // };
 
     return (
         <Container>
             <Row>
                 <ButtonGroup>
-                    <Button onClick={() => handleFilter('dogs')}>Dogs</Button>
-                    <Button onClick={() => handleFilter('cats')}>Cats</Button>
-                    <Button onClick={() => handleFilter('other')}>Other</Button>
-                    <Button color="danger" onClick={() => handleFilter('all')}>Reset</Button>
+                    <Button onClick={() => setFilter(selectLostDogs)}>Dogs</Button>
+                    <Button onClick={() => setFilter(selectLostCats)}>Cats</Button>
+                    <Button onClick={() => setFilter(selectLostOthers)}>Other</Button>
+                    <Button color="danger" onClick={() => setFilter(selectAllLostPets)}>Reset</Button>
                 </ButtonGroup>
             </Row>
             <Row>
