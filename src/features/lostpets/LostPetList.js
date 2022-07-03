@@ -6,16 +6,6 @@ import { selectAllLostPets, selectLostDogs, selectLostCats, selectLostOthers } f
 const LostPetList = () => {
 
     const [filter, setFilter] = useState(selectAllLostPets)
-    console.log(filter);
-
-    // const setFilter = (value) => {
-        
-    //     if (value === 'dog') { selectLostDogs() }
-    //     else if (value === 'cat') { selectLostCats() }
-    //     else if (value === 'other') { selectLostOthers() }
-    //     else if (value === 'all') { selectAllLostPets() }
-        
-    // };
 
     return (
         <Container>
