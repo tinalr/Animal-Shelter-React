@@ -3,35 +3,38 @@ import { useState } from "react";
 import { Collapse, Container, Nav, Navbar, NavbarBrand, NavbarToggler, NavItem } from "reactstrap";
 import { NavLink } from "react-router-dom";
 import LogoMaximumYellowRed from '../app/assets/img/LogoMaximumYellowRed.png';
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faHeart, faPaw, faBone } from "@fortawesome/free-solid-svg-icons";
+
 
 const Header = () => {
     const [menuOpen, setMenuOpen] = useState(false);
-    
+
     return (
         <div>
-            <Navbar sticky='top' light expand='md'>
-                
+            <Navbar light expand='md'>
+
                 <NavbarBrand href='/'>
                     <img src={LogoMaximumYellowRed} className='logo-lg' alt='Logo' /> Porto Animal Shelter
                 </NavbarBrand>
-    
+
                 <NavbarToggler onClick={() => setMenuOpen(!menuOpen)} />
-    
+
                 <Collapse isOpen={menuOpen} navbar >
-                    <Nav navbar className=''>
+                    <Nav navbar className='navlink'>
                         <NavItem>
                             <NavLink className='nav-link' to='/adoptions'>
-                                <i className='fa-regular fa-house-heart' /> Adoptions
+                                <FontAwesomeIcon className="fa" icon={faHeart} /> Adoptions
                             </NavLink>
                         </NavItem>
                         <NavItem>
                             <NavLink className='nav-link' to='/lostfound'>
-                                <i className="fa-regular fa-paw" /> Lost & Found
+                                <FontAwesomeIcon className="fa" icon={faPaw} /> Lost & Found
                             </NavLink>
                         </NavItem>
                         <NavItem>
                             <NavLink className='nav-link' to='/resources'>
-                                <i className='fa-regular fa-bone' /> Resources
+                                <FontAwesomeIcon className="fa" icon={faBone} /> Resources
                             </NavLink>
                         </NavItem>
                     </Nav>

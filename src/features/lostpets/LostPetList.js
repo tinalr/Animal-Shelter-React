@@ -10,12 +10,17 @@ const LostPetList = () => {
     return (
         <Container>
             <Row>
-                <ButtonGroup>
-                    <Button onClick={() => setFilter(selectLostDogs)}>Dogs</Button>
-                    <Button onClick={() => setFilter(selectLostCats)}>Cats</Button>
-                    <Button onClick={() => setFilter(selectLostOthers)}>Other</Button>
-                    <Button color="danger" onClick={() => setFilter(selectAllLostPets)}>Reset</Button>
-                </ButtonGroup>
+                <Col>
+                    <ButtonGroup>
+                        <Button onClick={() => setFilter(selectLostDogs)}>Dogs</Button>
+                        <Button onClick={() => setFilter(selectLostCats)}>Cats</Button>
+                        <Button onClick={() => setFilter(selectLostOthers)}>Other</Button>
+                        <Button color="danger" onClick={() => setFilter(selectAllLostPets)}>Reset</Button>
+                    </ButtonGroup>
+                </Col>
+                <Col sm='3'>
+                    <Button color="primary">Post a Lost Pet</Button>
+                </Col>
             </Row>
             <Row>
                 {filter.map((lostpet) => {
