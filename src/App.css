@@ -108,7 +108,7 @@ header .row {
   background-size: cover;
   background-blend-mode: darken; }
 
-.lost .card-img-top {
+.lostPetCardImg {
   width: 100%;
   height: 250px;
   object-fit: cover;
