@@ -5,17 +5,17 @@ const Footer = () => {
     return (
         <footer>
             
-            <Container className=' top-footer container-fluid'>
-                <Row className=''>
+            <Container className='top-footer container-fluid pt-3'>
+                <Row>
                     
-                    <Col className='text-end'>
+                    <Col xs='9' sm className='text-end'>
                         <img src={Map} alt='map-location' className='map-image' />
                     </Col>
 
-                    <Col className='text-start'>
+                    <Col sm='' className='text-start'>
                         <h5>Proto Animal Shelter</h5>
-                            <p>123 Main St <br />
-                            Anywhere, USA 12345 <br /></p>
+                            <address>123 Main St <br />
+                            Anywhere, USA 12345 <br /></address>
                         <a role='button'
                             className='btn btn-link'
                             href='tel:+13125551234'>
@@ -37,7 +37,7 @@ const Footer = () => {
             
             
 
-            <Container className='sub-footer container-fluid'>
+            <Container fluid className='sub-footer'>
                 <Row>
                     <Col className='text-start'>
                         <div className='text-white mt-1'>&copy; 2022 Company, Inc</div>

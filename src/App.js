@@ -8,6 +8,11 @@ import Header from './components/Header';
 import './App.css';
 import Footer from './components/Footer';
 
+
+
+
+
+
 function App() {
   return (
     <div className="App">
@@ -19,6 +24,7 @@ function App() {
         <Route path='lostfound' element={<LostFoundPage />} />
         <Route path='resources' element={<ResourcesPage />} />
       </Routes>
+      
       <Footer />
     </div>
     
