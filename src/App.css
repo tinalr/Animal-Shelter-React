@@ -46,6 +46,10 @@ header .row {
   background-color: #ffbd59;
   font-family: "Pacifico", cursive; }
 
+.navlink {
+  font-family: "Quicksand", sans-serif;
+}
+
 .active {
   font-weight: bold; }
 
