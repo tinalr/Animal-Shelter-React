@@ -24,7 +24,6 @@ function App() {
         <Route path='lostfound' element={<LostFoundPage />} />
         <Route path='resources' element={<ResourcesPage />} />
       </Routes>
-      
       <Footer />
     </div>
     

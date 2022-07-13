@@ -8,7 +8,7 @@ const AdoptPetsCard = ({ pets }) => {
     return (
       
     <Card>
-      <CardImg width="100%" src={image} alt={name} />
+      <CardImg className="adoptPetCardImg" width="100%" src={image} alt={name} />
         <CardTitle className="text-center" >{name}</CardTitle>
         <Button color='warning'>Adopt Me</Button>
     </Card>

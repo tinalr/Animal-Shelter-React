@@ -11,7 +11,7 @@ const AdoptPetsList = ({ petType } ) => {
         <Row className='ms-auto'>
             {petType.map((pets) => {
                 return (
-                    <Col xs='6' sm='6'  md='2' key={pets.id} >
+                    <Col xs='6' sm='4' lg='3' key={pets.id} >
                         <AdoptPetsCard onClick={selectPetsById(pets.id)} pets={pets} />
                     </Col>
                 );

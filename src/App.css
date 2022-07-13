@@ -66,6 +66,13 @@ header .row {
   max-width: 100px;
   min-width: 50px; }
 
+  /* Adoptions */
+  .adoptPetCardImg { /* Make the image fully responsive */
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    object-position: center; 
+  }
 
 /* LOST AND FOUND */
 .modal-header, .modal-header h3 {
@@ -80,7 +87,7 @@ header .row {
 
 
 
-  
+
 /* Bootstrap Accordian */
 /* .accordion-button {
   background-color: #17bebb;
