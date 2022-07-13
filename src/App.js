@@ -5,8 +5,8 @@ import AdoptionsPage from './pages/AdoptionsPage';
 import LostFoundPage from './pages/LostFoundPage';
 import ResourcesPage from './pages/ResourcesPage';
 import Header from './components/Header';
-import './App.css';
 import Footer from './components/Footer';
+import './App.css';
 
 
 

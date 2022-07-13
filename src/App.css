@@ -50,6 +50,10 @@ header .row {
   font-family: "Quicksand", sans-serif;
 }
 
+footer a {
+  color: #118886;
+}
+
 .active {
   font-weight: bold; }
 

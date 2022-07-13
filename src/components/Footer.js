@@ -13,21 +13,21 @@ const Footer = () => {
                     </Col>
 
                     <Col sm='' className='text-start'>
-                        <h5>Proto Animal Shelter</h5>
+                        <h5>Porto Animal Shelter</h5>
                             <address>123 Main St <br />
                             Anywhere, USA 12345 <br /></address>
                         <a role='button'
-                            className='btn btn-link'
+                            className=''
                             href='tel:+13125551234'>
                             <i className='fa fa-phone' />1-312-555-1234
                         </a>
                         <br />
                         <a
                             role='button'
-                            className='btn btn-link'
+                            className=''
                             href='mailto:notreal@notreal.co'
                         >
-                            <i className='fa fa-envelope-o' /> PortoAnimalShelter.com
+                            <i className='fa fa-envelope-o' /> info@porto.com
                         </a>
                     </Col>
                     
