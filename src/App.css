@@ -44,22 +44,23 @@ header .row {
 
 .navbar {
   background-color: #ffbd59;
-  font-family: "Pacifico", cursive; }
+  font-family: "Pacifico", cursive;
+  font-weight: bold; }
 
 .navlink {
   font-family: "Quicksand", sans-serif;
 }
 
 footer a {
-  color: #118886;
+  color: #0D3B66;
 }
 
 .active {
-  font-weight: bold; }
+  font-weight: bolder; }
 
 .logo-lg {
-  max-width: 300px;
-  min-width: 100px; }
+  max-width: 100px;
+  min-width: 50px; }
 
 .btn, .btn:after, .btn:hover {
   background-color: #17bebb;
