@@ -1,67 +1,25 @@
 @import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Quicksand:wght@300;600&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap');
 
-/* Footer */
-.top-footer {
-  background-color: #faf0ca;
-}
-.sub-footer {
-  background-color: #ffbd59;
-}
-
-.map-image {
-  height: 10rem;
-  width: 15rem;
-}
-
-h5 {
-  font-family: "Pacifico", cursive;
-  font-weight: bold;
-}
-
-
 body {
   font-family: "Quicksand", sans-serif; }
-
 h1, h2 {
   font-family: "Pacifico", cursive; }
-
 h3 {
   font-family: "Quicksand", sans-serif;
   color: #f95738;
   text-align: center; }
-
 h4 {
   font-family: "Quicksand", sans-serif;
   color: #0d3b66;
   text-align: center; }
-
-footer {
-  background-color: #faf0ca; }
-
-header .row {
-  --bs-gutter-x: 0rem; }
-
-.navbar {
-  background-color: #ffbd59;
+h5 {
   font-family: "Pacifico", cursive;
-  font-weight: bold; }
-
-.navlink {
-  font-family: "Quicksand", sans-serif;
+  font-weight: bold;
 }
-
-footer a {
-  color: #0D3B66;
-}
-
-.active {
-  font-weight: bolder; }
-
-.logo-lg {
-  max-width: 100px;
-  min-width: 50px; }
-
+.fa {
+  color: white;
+  font-size: 1.5em; }
 .btn, .btn:after, .btn:hover {
   background-color: #17bebb;
   color: white; }
@@ -70,58 +28,84 @@ footer a {
   outline: 0;
   box-shadow: 0 0 0 0.25rem rgba(23, 190, 187, 0.25); }
 
-.accordion-button {
-  background-color: #17bebb;
-  color: #fff; }
 
-.accordion-button:not(.collapsed) {
-  color: #fff;
-  background-color: #17bebb;
-  box-shadow: 0 0px 0 #17bebb; }
+/* Footer */
+.top-footer {
+  background-color: #faf0ca;
+}
+.sub-footer {
+  background-color: #ffbd59;
+}
+.map-image {
+  height: 10rem;
+  width: 15rem;
+}
+footer {
+  background-color: #faf0ca; 
+}
+footer a {
+  color: #0D3B66;
+}
 
-.accordion-button:focus {
-  z-index: 3;
-  border-color: #17bebb;
-  outline: 0;
-  box-shadow: 0 0 0 0.25rem rgba(23, 190, 187, 0.25); }
+/* Header */
+header .row {
+  --bs-gutter-x: 0rem; }
+.navbar {
+  background-color: #ffbd59;
+  font-family: "Pacifico", cursive;
+  font-weight: bold;
+  color: #f95738; 
+}
+.navlink {
+  font-family: "Quicksand", sans-serif;
+}
+.active {
+  font-weight: bolder;
+}
+.logo-lg {
+  max-width: 100px;
+  min-width: 50px; }
 
-.accordion h2 {
-  font-family: "Quicksand", sans-serif; }
-
-.index .card-img-overlay {
-  left: 15px;
-  text-shadow: 1px 1px 5px #000000;
-  font-weight: bold; }
-
-.index h5 {
-  text-shadow: 1px 1px 5px #000000;
-  font-weight: bold; }
-
-.fa {
-  color: white;
-  font-size: 1.5em; }
-
-#jumbotron {
-  background-color: #ffbd59; }
-
-#social-nav {
-  background-color: #ffbd59; }
 
 /* LOST AND FOUND */
 .modal-header, .modal-header h3 {
   background-color: #17bebb;
   color: white; }
-
-.lost .lost-hero {
-  background: rgba(0, 0, 0, 0.5) url() no-repeat center;
-  background-size: cover;
-  background-blend-mode: darken; }
-
-.lostPetCardImg {
+.lostPetCardImg { /* Make the image fully responsive */
   width: 100%;
   height: 250px;
   object-fit: cover;
   object-position: center; }
 
-/* Make the image fully responsive */
 
+
+
+  
+/* Bootstrap Accordian */
+/* .accordion-button {
+  background-color: #17bebb;
+  color: #fff; }
+.accordion-button:not(.collapsed) {
+  color: #fff;
+  background-color: #17bebb;
+  box-shadow: 0 0px 0 #17bebb; }
+.accordion-button:focus {
+  z-index: 3;
+  border-color: #17bebb;
+  outline: 0;
+  box-shadow: 0 0 0 0.25rem rgba(23, 190, 187, 0.25); }
+.accordion h2 {
+  font-family: "Quicksand", sans-serif; } */
+
+  /* .lost .lost-hero {
+  background: rgba(0, 0, 0, 0.5) url() no-repeat center;
+  background-size: cover;
+  background-blend-mode: darken; } */
+
+/* .index .card-img-overlay {
+  left: 15px;
+  text-shadow: 1px 1px 5px #000000;
+  font-weight: bold; }
+.index h5 {
+  text-shadow: 1px 1px 5px #000000;
+  font-weight: bold; } */
