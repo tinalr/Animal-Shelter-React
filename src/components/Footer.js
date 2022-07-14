@@ -5,14 +5,20 @@ const Footer = () => {
     return (
         <footer>
             
-            <Container className='top-footer container-fluid pt-3'>
-                <Row>
+            <Container className='top-footer container-fluid py-3'>
+                <Row className='m-4'>
                     
-                    <Col xs='9' sm className='text-end'>
+                    <Col
+                        className='m-3'
+                        sm={{
+                            offset: 3,
+                            size: 'auto'
+                        }}
+                    >
                         <img src={Map} alt='map-location' className='map-image' />
                     </Col>
 
-                    <Col sm='' className='text-start'>
+                    <Col className='text-start m-3'>
                         <h5>Porto Animal Shelter</h5>
                             <address>123 Main St <br />
                             Anywhere, USA 12345 <br /></address>

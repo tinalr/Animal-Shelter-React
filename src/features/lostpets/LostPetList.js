@@ -9,7 +9,7 @@ const LostPetList = () => {
 
     return (
         <Container>
-            <Row>
+            <Row className="my-4">
                 <Col>
                     <ButtonGroup>
                         <Button onClick={() => setFilter(selectLostDogs)}>Dogs</Button>
@@ -22,11 +22,12 @@ const LostPetList = () => {
                     <Button color="primary">Post a Lost Pet</Button>
                 </Col>
             </Row>
-            <Row>
+            <Row className="my-4">
                 {filter.map((lostpet) => {
                     return (
                         <Col
-                            sm='6'
+                            className="my-4"
+                            xs='6'
                             md='4'
                             lg='3'
                             key={lostpet.id}
