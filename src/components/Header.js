@@ -5,7 +5,6 @@ import { NavLink } from "react-router-dom";
 import LogoMaximumYellowRed from '../app/assets/img/LogoMaximumYellowRed.png';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faHeart, faPaw, faBone } from "@fortawesome/free-solid-svg-icons";
-import '../App.css';
 
 
 const Header = () => {

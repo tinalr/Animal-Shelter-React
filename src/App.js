@@ -6,11 +6,6 @@ import LostFoundPage from './pages/LostFoundPage';
 import ResourcesPage from './pages/ResourcesPage';
 import Header from './components/Header';
 import Footer from './components/Footer';
-import './App.css';
-
-
-
-
 
 
 function App() {
