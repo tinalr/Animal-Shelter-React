@@ -2,6 +2,7 @@ import LostPetCard from "./LostPetCard";
 import { useState } from "react";
 import { Row, Col, Container, Button, ButtonGroup } from "reactstrap";
 import { selectAllLostPets, selectLostDogs, selectLostCats, selectLostOthers } from "./lostPetSlice";
+import PostLostPetForm from "./PostLostPetForm";
 
 const LostPetList = () => {
 
@@ -19,7 +20,9 @@ const LostPetList = () => {
                     </ButtonGroup>
                 </Col>
                 <Col sm='3'>
-                    <Button color="primary">Post a Lost Pet</Button>
+
+                    <PostLostPetForm/>
+
                 </Col>
             </Row>
             <Row className="my-4">
