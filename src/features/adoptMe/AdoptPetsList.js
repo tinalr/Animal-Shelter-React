@@ -5,8 +5,6 @@ import { selectAllPets, selectPetsById } from './adoptPetsSlice';
 
 const AdoptPetsList = ({ petType } ) => {
     const pets = selectAllPets();
-    
-
     return (
         <Row className='my-5'>
             {petType.map((pets) => {

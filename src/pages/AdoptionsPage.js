@@ -28,9 +28,8 @@ const AdoptionsPage = () => {
                 </ButtonGroup>
             </Row>
             <Row>
-                <Col sm='7' md=''>
+                <Col>
                     <AdoptPetsList petType={petType} />
-                
                 </Col>
 
                 
